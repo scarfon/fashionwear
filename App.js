@@ -1,52 +1,19 @@
-import { StatusBar } from "expo-status-bar";
-import { Image, StyleSheet, Text, TextInput, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Login from "./screens/login";
+import Home from "./screens/home";
+import Produtos from "./screens/produtos";
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
 	return (
-		<View style={styles.container}>
-			<Image style={styles.img} source={require("./assets/logo.png")} />
-			<Text style={styles.titulo}>Faça seu login</Text>
-			<Text style={{ fontSize: 18 }}>Para começar a vender</Text>
-			<TextInput style={styles.input} placeholder="e-mail" />
-			<TextInput style={styles.input} placeholder="Senha" secureTextEntry />
-			<Text style={styles.botao}>Entrar</Text>
-			<StatusBar style="auto" />
-		</View>
+		<NavigationContainer>
+			<Stack.Navigator>
+				<Stack.Screen name="Login" component={Login} />
+				<Stack.Screen name="Home" component={Home} />
+				<Stack.Screen name="Produtos" component={Produtos} />
+			</Stack.Navigator>
+		</NavigationContainer>
 	);
 }
-
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		backgroundColor: "#FCFBFF",
-		alignItems: "center",
-		justifyContent: "center",
-	},
-	titulo: {
-		color: "#121a2c",
-		fontSize: 28,
-		fontWeight: "bold",
-	},
-	input: {
-		paddingVertical: 12,
-		paddingHorizontal: 16,
-		borderRadius: 4,
-		borderColor: "#747474",
-		borderWidth: 1,
-		marginVertical: 20,
-		width: "50%",
-	},
-	botao: {
-		backgroundColor: "black",
-		color: "#FFFFFF",
-		paddingVertical: 8,
-		paddingHorizontal: 60,
-		borderRadius: 4,
-	},
-	img: {
-		width: "100%",
-		height: 300,
-		position: "absolute",
-		top: 0,
-	},
-});
