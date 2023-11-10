@@ -11,6 +11,8 @@ export const styles = StyleSheet.create({
 		color: "#121a2c",
 		fontSize: 28,
 		fontWeight: "bold",
+		textAlign: "center",
+		marginBottom: 20,
 	},
 	input: {
 		paddingVertical: 12,
@@ -27,6 +29,7 @@ export const styles = StyleSheet.create({
 		paddingVertical: 8,
 		paddingHorizontal: 60,
 		borderRadius: 4,
+		marginVertical: 20,
 	},
 	img: {
 		width: "100%",
@@ -55,5 +58,9 @@ export const styles = StyleSheet.create({
 		fontSize: 16,
 		color: "#888",
 		marginTop: 5,
+	},
+	erro: {
+		color: "red",
+		fontSize: 16,
 	},
 });

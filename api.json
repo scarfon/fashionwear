@@ -3,62 +3,76 @@
 		{
 			"id": 1,
 			"nome": "Camiseta",
-			"caminhoImagem": "img/camiseta.jpg",
+			"caminhoImagem": "https://www.mrporter.com/variants/images/3633577411310824/in/w2000_q60.jpg",
 			"preco": 50.0
 		},
 		{
 			"id": 2,
 			"nome": "Calça",
-			"caminhoImagem": "img/calca.jpg",
+			"caminhoImagem": "https://www.helikon-tex.com/media/catalog/product/cache/6/image/9df78eab33525d08d6e5fb8d27136e95/s/p/sp-pgm-dc-11.jpg",
 			"preco": 100.0
 		},
 		{
 			"id": 3,
 			"nome": "Blusa",
-			"caminhoImagem": "img/blusa.jpg",
+			"caminhoImagem": "https://www.guller.com.br/21115-medium_default/blusa-feminina-com-estampa-floral-ombro-de-fora-com-decote-v-b%C3%A1sica-com-estilo-ver%C3%A3o-el%C3%A1stica.jpg",
 			"preco": 70.0
 		},
 		{
 			"id": 4,
 			"nome": "Vestido",
-			"caminhoImagem": "img/vestido.jpg",
+			"caminhoImagem": "https://www.collinsdictionary.com/images/full/dress_31690953_1000.jpg",
 			"preco": 150.0
 		},
 		{
 			"id": 5,
 			"nome": "Saia",
-			"caminhoImagem": "img/saia.jpg",
+			"caminhoImagem": "https://www.collinsdictionary.com/images/full/skirt_214811818_1000.jpg",
 			"preco": 80.0
 		},
 		{
 			"id": 6,
 			"nome": "Jaqueta",
-			"caminhoImagem": "img/jaqueta.jpg",
+			"caminhoImagem": "https://www.stormtech.ca/cdn/shop/products/LRX-4_BLACK_2000x.jpg?v=1675198623",
 			"preco": 200.0
 		},
 		{
 			"id": 7,
 			"nome": "Shorts",
-			"caminhoImagem": "img/shorts.jpg",
+			"caminhoImagem": "https://53464.cdn.lojaquevende.com.br/static/53464/sku/kit-4-shorts-liso-elastano-masculino-de-praia-ksl-1663263246852.jpg",
 			"preco": 60.0
 		},
 		{
 			"id": 8,
 			"nome": "Blazer",
-			"caminhoImagem": "img/blazer.jpg",
+			"caminhoImagem": "https://static.zara.net/photos///2022/V/0/1/p/8372/735/800/2/w/824/8372735800_6_1_1.jpg?ts=1645176796576",
 			"preco": 180.0
 		},
 		{
 			"id": 9,
 			"nome": "Camisa",
-			"caminhoImagem": "img/camisa.jpg",
+			"caminhoImagem": "https://www.collinsdictionary.com/images/full/shirt_378037390_1000.jpg",
 			"preco": 90.0
 		},
 		{
 			"id": 10,
 			"nome": "Jeans",
-			"caminhoImagem": "img/jeans.jpg",
+			"caminhoImagem": "https://img.lojasrenner.com.br/item/783048755/large/13.jpg",
 			"preco": 120.0
+		}
+	],
+	"usuarios": [
+		{
+			"id": 1,
+			"nome": "João",
+			"email": "joao@fashionwear.com",
+			"senha": "123456"
+		},
+		{
+			"id": 2,
+			"nome": "Maria",
+			"email": "maria@fashionwear.com",
+			"senha": "123456"
 		}
 	]
 }
